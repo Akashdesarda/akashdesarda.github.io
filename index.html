@@ -92,9 +92,12 @@
                 <h4>Machine Learning Operation Engineer</h4>
                 <p>
                     <ul style="list-style-type:square">
-                        <li>Worked as a ML Ops Engineer for 'AthenasOwl' a Machine Learning powered video recognition product of Quantiphi.</li>
+                        <li>Worked at <b>AthenasOwl</b> a Machine Learning powered video recognition product of Quantiphi.</li>
                         <li>It mines granular details in a video to identify faces, detect objects, identify locales, recognize spoken keywords, and much more.</li>
-                        <li>My Day to Day work generally revolves around CNNs/ Image Aspect of Machine Learning.</li>
+                        <li>My Day to Day work generally revolves around:</li>
+                            <ul style="list-style-type:circle;">
+                                <li>Computer Vision aspect of Machine Learning</li>
+                                <li>Managing Orchastration, Governance, Production of ML Workflows</li>
                     </ul>
                 </p>
             </div>
@@ -120,35 +123,23 @@
 
     <div id="education">
         <h2 class="heading">Education</h2>
+
+        <div class="education-block">
+            <h3>Data Science Master Program</h3>
+            <span class="education-date">Aug 2018 - Feb 2019</span>
+            <h4>GreyAtom School of Data Science</h4>
+        </div>
+        <!-- End .education-block -->
+
         <div class="education-block">
             <h3>B.E in Computer Science</h3>
             <span class="education-date">June 2014 - June 2018</span>
             <h4>St. Francis Institute of Technology<br>
                 Mumbai University
             </h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
         </div>
         <!-- End .education-block -->
 
-        <div class="education-block">
-            <h3>Data Science Master Program</h3>
-            <span class="education-date">Aug 2018 - Feb 2019</span>
-            <h4>GreyAtom School of Data Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
@@ -158,15 +149,17 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/objdet.jpeg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Consumer Goods Detection using RetinaNet</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        <p>Used RetinaNet (a one stage Detector), to detect 50 classes. 
+                           All classes were day-to-day based consumer goods like food, table, chair, dress, laptop, etc.
+                           Used Open Images V2 dataset for Training. Use Google BigQuery, some pre-proccessing technique to create human annoted (also tagged) data.<br> 
+                           <b>Technology Used: Keras, RetinaNet, Google BigQuery, Python, Open Images V2</b>
                         </p>
-                        <a href="#">View Project</a>
+                        <!-- <a href="#">View Project</a> -->
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -174,15 +167,16 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/orchasetration.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Orchastration of ML Workflows</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            An internal POC to increase production readiness during development cycle itself. Use of Micro-service approach to break every ML Pipeline component to container. Useing Kubeflow orchastrating complete pipeline on GKE. This resulted in high reproducibility and portability. All this process was automated.<br>
+                            <b>Technology Used: GKE, GCR, Kubeflow, Docker, Nvidia-Docker, Python, GCP Cloud IAM</b>
                         </p>
-                        <a href="#">View Project</a>
+                        <!-- <a href="#">View Project</a> -->
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -190,15 +184,15 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/prod.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Streamline Pre-Production of Feature</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
+                            Build Top on 'Orchastration of ML Workflows', developed a certain design standards all their ML apps production ready during development itself. This resulted in saving about 60-70% time & resource in production cycle and making each project for more efficient.<br>
+                            <b>Technology Used: GKE, GCR, Kubeflow, Docker, Nvidia-Docker, Python, GCP Cloud IAM, Git (Gitlab)</b>
+                        <!-- <a href="#">View Project</a> -->
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -206,7 +200,7 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/pg.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
