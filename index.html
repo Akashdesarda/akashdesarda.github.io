@@ -149,15 +149,16 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/objdet.jpeg" />
+                        <img src="images/consumer-goods.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Consumer Goods Detection using RetinaNet</h3>
-                        <p>Used RetinaNet (a one stage Detector), to detect 50 classes. 
-                           All classes were day-to-day based consumer goods like food, table, chair, dress, laptop, etc.
-                           Used Open Images V2 dataset for Training. Use Google BigQuery, some pre-proccessing technique to create human annoted (also tagged) data.<br> 
-                           <b>Technology Used: Keras, RetinaNet, Google BigQuery, Python, Open Images V2</b>
+                        <p style="text-align:justify">
+                            <!-- <ul style="list-style-type:square">  -->
+                                Used RetinaNet (a one stage Detector), to first create image embeddings & then detect 50 classes. All classes were day-to-day based consumer goods like food, table, chair, dress, laptop, etc. Used Open Images V2 dataset for Training. Human annotation was provided along with data. using Google BigQuery and some pre-processing technique to create human annotated class-wise training data.<br><br>
+                                <b>Technology Used: Keras (Tensorflow 1.14 Backend), RetinaNet, Google BigQuery, MLflow, DVC, Python, Open Images V2</b>
+                            
                         </p>
                         <!-- <a href="#">View Project</a> -->
                     </div>
@@ -171,10 +172,10 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Orchastration of ML Workflows</h3>
-                        <p>
-                            An internal POC to increase production readiness during development cycle itself. Use of Micro-service approach to break every ML Pipeline component to container. Useing Kubeflow orchastrating complete pipeline on GKE. This resulted in high reproducibility and portability. All this process was automated.<br>
-                            <b>Technology Used: GKE, GCR, Kubeflow, Docker, Nvidia-Docker, Python, GCP Cloud IAM</b>
+                        <h3>Orchestration of ML Workflows</h3>
+                        <p style="text-align: justify">
+                            The project was an internal POC to demonstrate how to boost production readiness during the development cycle itself. Used Micro-service strategy into breaking off every ML Pipeline component & transforming them into Container. Using Kubeflow Pipeline to orchestrate complete workflow on GKE. This overall resulted in high reproducibility, portability and scalability. The complete pipeline was automated and a Web app was used to initiate and monitor the workflow.<br><br>
+                            <b>Technology Used: Python, Docker, Nvidia-Docker, GKE, GCR, Kubeflow, Kubeflow Pipeline, Gitlab</b>
                         </p>
                         <!-- <a href="#">View Project</a> -->
                     </div>
@@ -184,21 +185,21 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/prod.jpg" />
+                        <img src="images/prod.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Streamline Pre-Production of Feature</h3>
-                        <p>
-                            Build Top on 'Orchastration of ML Workflows', developed a certain design standards all their ML apps production ready during development itself. This resulted in saving about 60-70% time & resource in production cycle and making each project for more efficient.<br>
-                            <b>Technology Used: GKE, GCR, Kubeflow, Docker, Nvidia-Docker, Python, GCP Cloud IAM, Git (Gitlab)</b>
+                        <p style="text-align: justify">
+                            Build Top of on 'Orchestration of ML Workflows'. I developed generic design standards and protocols which was integrated into every project.  It included 'Project Governance & Compliance', 'Git Compliance', 'Data Version Control', 'Pipeline Version Control'. All ML apps were production-ready during development cycle itself & resulted in saving about 60-70% time & resource during the production cycle. Data VCS enabled time-travel. Project Governance & Git Compliance enabled common development practice, effective collaboration. All this resulted in making each project far more optimize.<br><br>
+                            <b>Technology Used: Python, Docker, GKE, GCR, Kubeflow, Kubeflow Pipeline, Gitlab, Cookiecutter, DVC, MLflow</b>
                         <!-- <a href="#">View Project</a> -->
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
+                <!-- <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/pg.png" />
                     </div>
@@ -211,7 +212,7 @@
                         <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
-                </div>
+                </div> -->
                 <!-- End .project -->
             </div>
         </div>
@@ -386,3 +387,9 @@
 </body>
 
 </html>
+
+
+
+
+Used RetinaNet (a one stage Detector), to detect 50 classes. All classes were day-to-day based consumer goods like food, table, chair, dress, laptop, etc. Used Open Images V2 dataset for Training. Use Google BigQuery, some pre-proccessing technique to create human annoted (also tagged) data 
+<b>Technology Used: Keras, RetinaNet, Google BigQuery, Python, Open Images V2</b>
